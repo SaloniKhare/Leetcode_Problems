@@ -57,7 +57,8 @@ class SpaceOptimizedSolution:
             prev_row = current_row
         return prev_row[n - 1]
 
-class CombinatoricsSolution:
+
+  class CombinatoricsSolution:
     def uniquePaths(self, m: int, n: int) -> int:
         total_steps = m + n - 2
         r = min(m - 1, n - 1)   # optimize calculation
