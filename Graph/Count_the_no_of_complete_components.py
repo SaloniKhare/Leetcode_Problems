@@ -163,14 +163,3 @@ class UnionFindSolution:
 
         return complete
 
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-n = 6
-edges = [[0,1],[0,2],[1,2],[3,4]]
-
-print(DFSSolution().countCompleteComponents(n, edges))
-print(BFSSolution().countCompleteComponents(n, edges))
-print(UnionFindSolution().countCompleteComponents(n, edges))
