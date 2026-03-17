@@ -104,15 +104,3 @@ class GreedyAltSolution:
                 prev_end = intervals[i][1]
 
         return count
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-intervals = [[1,2],[2,3],[3,4],[1,3]]
-
-print(BruteForceSolution().eraseOverlapIntervals(intervals))
-print(DPSolution().eraseOverlapIntervals(intervals))
-print(GreedySolution().eraseOverlapIntervals(intervals))
-print(GreedyAltSolution().eraseOverlapIntervals(intervals))
