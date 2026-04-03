@@ -134,16 +134,3 @@ class PythonicSolution:
         rev = int(str(abs(x))[::-1])
 
         return sign * rev if -2**31 <= sign * rev <= 2**31 - 1 else 0
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-x = -123
-
-print("BruteForce:", BruteForceSolution().reverse(x))
-print("Optimal:", OptimalSolution().reverse(x))
-print("Clean:", CleanSolution().reverse(x))
-print("Stack:", StackSolution().reverse(x))
-print("Pythonic:", PythonicSolution().reverse(x))
