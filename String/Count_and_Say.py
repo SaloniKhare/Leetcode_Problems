@@ -155,15 +155,3 @@ class QueueSolution:
 
         return queue[0]
 
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-n = 5
-
-print("BruteForce:", BruteForceSolution().countAndSay(n))
-print("Optimal:", OptimalSolution().countAndSay(n))
-print("Recursive:", RecursiveSolution().countAndSay(n))
-print("GroupBy:", GroupBySolution().countAndSay(n))
-print("Queue:", QueueSolution().countAndSay(n))
